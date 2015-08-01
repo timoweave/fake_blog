@@ -32,16 +32,18 @@ body > h1 > span {
     margin-bottom: 0em;
     
 }
+
 .blog h1:before {
     width:1em;
     height:1em;
     background-color:red;
 }
+
 .blog h2 {
     color: darkgrey;
     font-size: 0.75em;
     border-bottom: 1px solid #7db9e8;
-    text-align: right;
+    text-align: left;
     margin-top:0em;
     padding-top:0em;
     padding-bottom: 0.75em;
