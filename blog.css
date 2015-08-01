@@ -1,0 +1,48 @@
+* {
+    box-sizing : border-box;
+    font-family : sans-serif;
+}
+
+body {
+    width: 80%;
+    padding: 1em;
+    margin: 1em;
+}
+
+body > h1  {
+    border-bottom: 0.3em solid #96d1ff;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+body > h1 > span {
+    color: grey;
+}
+
+.blog {
+    margin: 1em 1em;
+    background-color: #f2f0ef;
+    display: inline-block;
+    padding: 1em 2em;
+    box-shadow: 0.2em 0.2em darkgrey;
+}
+
+.blog h1 {
+    margin-top:0.2em;
+    margin-bottom: 0em;
+    
+}
+.blog h1:before {
+    width:1em;
+    height:1em;
+    background-color:red;
+}
+.blog h2 {
+    color: darkgrey;
+    font-size: 0.75em;
+    border-bottom: 1px solid #7db9e8;
+    text-align: right;
+    margin-top:0em;
+    padding-top:0em;
+    padding-bottom: 0.75em;
+}
